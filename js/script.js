@@ -70,7 +70,7 @@ const bgColors = [
 ***/
 function getRandomColor() {
     const randomColor = Math.floor(Math.random() * bgColors.length);
-    // Applies random bg color to the body element
+    // Applies random bg color to the body element.
     document.body.style.backgroundColor = bgColors[randomColor];
   }
 
